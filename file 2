@@ -19,9 +19,4 @@ import java.io.File;
     try (Scanner input = new Scanner(file)) 
     {
 
-        while (input.hasNext()) 
-        {
-            buffer = input.nextLine();
-            for (char ch : buffer.toCharArray())
-            {
-   
+    
