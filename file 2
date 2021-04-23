@@ -15,7 +15,7 @@ import java.io.File;
         System.exit(1);
     }
     String buffer = "";
-    int[] letterCount = new int[26];
+    int[] letterCount = new int[56];
     try (Scanner input = new Scanner(file)) 
     {
 
